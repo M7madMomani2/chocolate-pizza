@@ -1,7 +1,4 @@
 
-* {
-  box-sizing: border-box;
-  }
   *{
     padding: 0;
     margin: 0;
@@ -13,17 +10,68 @@
   
   }
   header{
-    width: 98%;
+    padding: 5%;
   }
-  header div{
-    margin-top: 17px;
-      width: 253px;
-      margin-left: 35px;
+
+
+   .logo{
+    display: block;
+    float: left;
+   }
+
+   .navigation{
+    display: block;
+
+
+   }
+
+
+
+  header nav ul li{
+    position: relative;
+    float: right;
+    margin-right: 0;
   }
-  header div img{
-    margin-left: 12px;
-    margin-top: 10px;
+  header .logo img{
+    float :inherit;
+    padding-right: 15px;
+
   }
+  header .logo h1{
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+      font-weight: bold;
+      float: left;
+  }
+
+  header .logo p{
+    font-size: 7px;
+    color: lightslategray;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+
+  }
+
+
+
+
+.logo2 img{
+  float: right;
+  width: 20px;
+}
+.logo2 p{
+  color: lightslategray;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+
+
+
+
+
+  /*
+
   header div h1{
     font-family: 'Lobster', cursive;
     position: relative;
@@ -32,26 +80,39 @@
     font-size: 24px;
       font-weight: bold;
   }
-  header div p{
-    font-size: 11px;
-    position: relative;
-    left: 60px;
-    bottom: 38px;
-  }
-  nav ul{
-    position: relative;
-    top: 0px;
-    left: 20px;
-  }
-  header nav ul li{
+
+  naV{
+    background-color: aqua;
     display: inline-block;
-      position: relative;
-      left: 1100px;
-      top: -66px;
+width: 5%;
+    float: left;
+
+
   }
-  
-  
-  
+
+  header nav ul li{
+    position: relative;
+    float: right;
+    background-color: rgb(199, 33, 83);
+    left:20vw ;
+
+  }
+  header nav ul {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(61, 75, 75);
+    left:20vw ;
+
+  }
+   */
+   
+  hr{
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/LTUC/amman-201d14/main/class-10/lab-a/lab-assets/hr-img.png");
+    height: 1vw;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   
   
   
@@ -79,7 +140,8 @@
   }
   .imgPizza img{
     width: 100%;
-    background-size: cover;
+    padding-top: 7vh;
+
     
   }
    .imgSpan {
@@ -91,7 +153,7 @@
   
   
   .list{
-    background-image: url("https://static7.depositphotos.com/1001004/750/i/950/depositphotos_7505846-stock-photo-vintage-lined-background.jpg");
+    background-image: url("https://raw.githubusercontent.com/LTUC/amman-201d14/main/class-10/lab-a/lab-assets/list-bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
   
