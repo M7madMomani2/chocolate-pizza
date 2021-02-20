@@ -3,17 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  
   }
   body{
     width: 100%;
-  
   }
   header{
     padding: 5%;
   }
-
-
    .logo{
     display: block;
     float: left;
@@ -21,12 +17,7 @@
 
    .navigation{
     display: block;
-
-
    }
-
-
-
   header nav ul li{
     position: relative;
     float: right;
@@ -43,7 +34,6 @@
       font-weight: bold;
       float: left;
   }
-
   header .logo p{
     font-size: 7px;
     color: lightslategray;
@@ -52,9 +42,6 @@
 
   }
 
-
-
-
 .logo2 img{
   float: right;
   width: 20px;
@@ -62,50 +49,7 @@
 .logo2 p{
   color: lightslategray;
   font-family: 'Indie Flower', cursive;
-
 }
-
-
-
-
-
-
-  /*
-
-  header div h1{
-    font-family: 'Lobster', cursive;
-    position: relative;
-    left: 60px;
-    bottom: 46px;
-    font-size: 24px;
-      font-weight: bold;
-  }
-
-  naV{
-    background-color: aqua;
-    display: inline-block;
-width: 5%;
-    float: left;
-
-
-  }
-
-  header nav ul li{
-    position: relative;
-    float: right;
-    background-color: rgb(199, 33, 83);
-    left:20vw ;
-
-  }
-  header nav ul {
-    display: inline-block;
-    position: relative;
-    background-color: rgb(61, 75, 75);
-    left:20vw ;
-
-  }
-   */
-   
   hr{
     position: relative;
     background-image: url("https://raw.githubusercontent.com/LTUC/amman-201d14/main/class-10/lab-a/lab-assets/hr-img.png");
@@ -113,20 +57,14 @@ width: 5%;
     margin-left: 5%;
     margin-right: 5%;
   }
-  
-  
-  
-  
-  
-  
-  
   footer{
     margin-top: -33px;;
   
   }
   footer img{
     margin-left: 50%;
-  
+    position: inherit;
+    margin-bottom: -19px;  
   }
   footer article{
     text-align: center;
@@ -141,28 +79,17 @@ width: 5%;
   .imgPizza img{
     width: 100%;
     padding-top: 7vh;
-
-    
   }
    .imgSpan {
     float: left;
-  
   }
-  
-  
-  
-  
   .list{
     background-image: url("https://raw.githubusercontent.com/LTUC/amman-201d14/main/class-10/lab-a/lab-assets/list-bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
-  
-  
   } 
   .list form {
-  
   padding: 10%;
-  
   } 
   input[type="checkbox" i] {
     background-color: initial;
@@ -173,89 +100,78 @@ width: 5%;
     padding: 10px;
     border: initial;
   }
-  
   article{
     position:relative;
     margin-top: 5%;
     margin-bottom: 5%;
     color: lightslategray;
   }
-  
   .rightForm{
     font-family: 'Brush Script MT', cursive;
 
     position:relative;
     width: 50%;
     display:inline-block;
-    padding-left: 15%;
-  
+    padding-left: 5%;
   }
   .leftForm{
     font-family: 'Brush Script MT', cursive;
-
     position:relative;
     width: 50%;
-    padding-left: 15%;
+    padding-left: 5%;
     float:right;
     display:inline-block;
   }
-  .post{
-  margin-top: 61px;
-  height: 148px;
+  .post img{
+    position: inherit;
+    display: inline-block;
   }
-  .contianer .post h1{
-    position: relative;
-      left: 100px;
-      bottom: 67px;
-      font-size: 23px;
-  
-  
+#Fhr{
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 4%;
+  }
+  .post {
+    padding-top: 10vh;
+    display: block;
   }
   .post img{
-    border-radius: 52%;
-      margin-left: 20px;
-      margin-top: 12px
+    position: inherit;
+    display: block;
+    float: left;
   }
-  .post article{
-    position: relative;
-    bottom: 120px;
-    left: 95px;
+  .post h1{
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(82, 82, 82);
   }
-  
-  .post article span{
-    position: relative;
-      left: 800px;
-      bottom: 10px
-  
+  .post p{
+    font-family: initial;
+    width: 70%;
+    color: rgb(77, 77, 77);
   }
-  .post article span button{
-    width: 150px;
-      height: 53px;
-      background-color: rgb(175, 85, 85);
-      color:white;
-      border: none;
-    
+  .post button{
+    width: 12vw;
+    background-color: rgb(175, 85, 85);
+    height: 9vh;
+    color: white;
+    border: none;
+    float: right;
+    margin-top: -4%;
+    display: block;
   }
-  
+
   .contianer h1{
     font-size: 40px;
     font-family: fantasy;
   }
-  .contianer span{
-    color: lightslategray;
-      margin-right: -11px;
-      font-family: -webkit-pictograph;
-      padding: 6px;
-      position: relative;
-      top: 10px;
-      right: 20px;
-  }
-  .contianer .imgSpan img{
-    position: relative;
-    left: 1187px;
-    bottom: 4px;
-  }
-  
-  
-  
-  
+#bhr{
+  background-image: none;
+  height: 2px;
+  position: unset;
+
+}
+
+
+
